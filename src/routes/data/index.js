@@ -30,6 +30,51 @@ const me = {
   }
 }
 
+const workExperience = [
+  {
+    companyName: 'Ulabox',
+    companyLink: 'https://ulabox.com',
+    positions: [
+      {
+        title: 'Lead Front End Engineer',
+        description: '',
+        dateStart: '2018-03-15',
+        dateFinish: 'Today',
+      },
+      {
+        title: 'Front End Engineer',
+        description: '',
+        dateStart: '2017-01-09',
+        dateFinish: '2018-03-15',
+      }
+    ],
+  },
+  {
+    companyName: 'Mediàtic',
+    companyLink: 'https://mediatic.cat',
+    positions: [
+      {
+        title: 'Front End Developer',
+        description: '',
+        dateStart: '2015-03-02',
+        dateFinish: '2016-12-23',
+      }
+    ],
+  },
+  {
+    companyName: 'Friendly Rentals',
+    companyLink: 'https://friendlyrentals.com',
+    positions: [
+      {
+        title: 'Front End Developer Internship',
+        description: '',
+        dateStart: '2014-10-06',
+        dateFinish: '2015-02-11',
+      }
+    ],
+  }
+]
+
 const jobs = [
   {
     companyName: 'Ulabox',
@@ -118,7 +163,7 @@ const site = {
 }
 
 const staticData = {
-  me: Object.assign(me, { jobs, education, awards, skills }),
+  me: Object.assign(me, { jobs, education, awards, skills, workExperience }),
   social: me.social,
   site: site
 }
