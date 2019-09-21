@@ -33,7 +33,8 @@ const me = {
 const workExperience = [
   {
     companyName: 'Ulabox',
-    companyLink: 'https://ulabox.com',
+    companyWebsite: 'https://ulabox.com',
+    companyLogo: '/img/companies/ulabox.png',
     positions: [
       {
         title: 'Lead Front End Engineer',
